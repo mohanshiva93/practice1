@@ -8,7 +8,7 @@
     </head>
     <body>
         <h1 id="header">STUDENT MARKS DETAILS</h1>
-        <div>
+        <div class="container1">
             <table>
                 <tr>
                     <td>
@@ -27,23 +27,27 @@
                     </td>
                 </tr>
             </table>
-        </div>
+      
         <h2>GENDER</h2>
         <input type="radio" id="male" name="gender" value="male"><label>MALE</label><br>
         <input type="radio" id="female" name="gender" value="female"><label>FEMALE</label><br><br>
+        <h2>AGE</h2>
+        <input type="text" id="age">
+
+        
         <h2>SUBJET MARKS DETAILS</h2>
-        <div id="container">
+    
             <tr>
                 <td>
                     <label>SUBJECT 1:</label><input type="text" id="subject1">
                     <label>SUBJECT 2:</label><input type="text" id="subject2">
-                </td><br>
+                </td><br><br>
             </tr>
             <tr>
                 <td>
                     <label>SUBJECT 3:</label><input type="text" id="subject3">
                     <label>SUBJECT 4:</label><input type="text" id="subject4">
-                </td><br>
+                </td><br><br>
             </tr>
             <tr>
                 <td>
@@ -51,9 +55,27 @@
                     <label>SUBJECT 6:</label><input type="text" id="subject6">
                 </td><br><br>
             </tr>
-        </div>
+        
+        
+         <div id="header">
+              <button id="submitBtn">SUBMIT</button>
+              <button id="clearBtn">CLEAR</button>
+         </div>
 
-        <button id="submitBtn">SUBMIT</button>
+    </div><br><br>
+    <hr>
+    <h1 id="header">STUDENT DETAILS</h1>
+    <div class="container1 container2">
+         <label>NAME: </label> <label id="display_name" class="displayValues"></label><br><br>
+         <label>SURNAME:</label><label id="display_surname" class="displayValues"></label><br><br>
+         <label>GENDER:</label><label id="display_gender" class="displayValues"></label><br><br>
+         <label>AGE:</label><label id="display_age" class="displayValues"></label><br><br>
+         <label>TOTAL MARKS:</label><label id="display_total" class="displayValues"></label><br><br>
+         <label>PERCENTAGE:</label><label id="display_percent" class="displayValues"></label><br><br>
+    </div>
+
+
+
 
     </body>
 </html>
