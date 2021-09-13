@@ -1,0 +1,21 @@
+#header{
+    text-align: center;
+    background-color: chocolate;
+    color: darkblue;
+    font-family: fantasy;
+    margin: 10px 40px 0px 40px;
+}
+#get{
+    text-align: center;
+    background-color: chocolate;
+    color: darkblue;
+    font-family: fantasy;
+    margin: 10px 40px 0px 40px;
+}
+  
+
+
+.output{
+    text-align: center;
+    color:chartreuse;
+}
