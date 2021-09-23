@@ -1,0 +1,15 @@
+#head{
+    text-align: center;
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.userContainer{
+    
+    padding: 10px;
+    margin: 20px;
+    border-top: 50px;
+    background-color:#b3b5b057;
+}
+
+    

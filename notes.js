@@ -26,3 +26,19 @@ $("#id").prop("checked")
      
    }
 //----------------------------------------------------------------------------------------//
+//api call
+fetch('https://jsonplaceholder.typicode.com/users')
+  .then(response => response.json())
+  .then(json => console.log(json))
+
+  //------------------------------------------------------------------------------//
+  //to get the output in consolelog from array
+  console.log("name:"+userData[i].name+", "+"id:"+userData[i].id)
+
+  //------------------------------------------------------
+    //string concatination => ${varible_name}
+
+    var temp=10;
+   `the output is ${temp}`
+
+   //-----------------------------------------------------------
